@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "IsOpenAt",
-            "url": "isopenat.com",
+            "url": "https://isopenat.com",
             "description": "¿Quieres saber si tus negocios favoritos están abiertos? En IsOpenAt, podrás saber la información de tus negocios favoritos, así como de promociones, y reseñas de parte de otras personas. También podrás hacer reseñas por tu mismo, y aportar para poder tener la información más reciente del negocio que más te gusta.",
             "stack": ["React", "Tailwind", "NodeJS", "Express", "MongoDB"]
         },
@@ -36,8 +36,50 @@
             "name": "Room Home Page",
             "url": "https://betoml5.github.io/Room-homepage/",
             "description": "Home page de una marca de muebles",
+            "stack": ["HTML", "CSS", "JS"]
+   
+        },
+
+        {
+            "id": 6,
+            "name": "Shortly URL",
+            "url": "https://betoml5.github.io/shortly-landing/",
+            "description": "Web app para acortar URLs",
+            "stack": ["HTML", "CSS", "JS"]
+   
+        },
+        {
+            "id": 7,
+            "name": "Buuk - App Movil - React Native",
+            "url": "https://github.com/Betoml5/buuk-frontend",
+            "description": "Aplicacion movil para tracking de libros",
             "stack": ["React", "MongoDB", "Express", "NodeJS"]
    
+        },
+        {
+            "id": 8,
+            "name": "Espacios Seguros",
+            "url": "http://espacios-rosita.vercel.app/",
+            "description": "Web app para reportar acosos",
+            "stack": ["React","Tailwind", "NodeJS", "Express", "MongoDB"]
+   
+        },
+        {
+            "id": 9,
+            "name": "Paises App",
+            "url": "http://countries-app-betoml5.vercel.app/",
+            "description": "Web app de paises",
+            "stack": ["React", "CSS"]
+   
+        },
+        {
+            "id": 10,
+            "name": "Dashboard Social",
+            "url": "https://betoml5.github.io/Social-media-dashboard-with-theme-switcher/",
+            "description": "Dashboard de redes sociales",
+            "stack": ["HTML", "CSS", "JS"]
+   
         }
+        
     ]
 }

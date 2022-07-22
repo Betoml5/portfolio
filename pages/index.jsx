@@ -25,12 +25,19 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 grid-flow-row-dense">
             {projects.map((item) => (
               <div
-                className="flex justify-between items-center   bg-primary text-white p-4 rounded-md cursor-pointer"
+                className="flex justify-between items-center bg-primary text-white p-4 rounded-md cursor-pointer hover:opacity-90"
                 key={item.id}
               >
-                <p className=" text-2xl ">{item.name}</p>
-                {console.log(item.stack)}
-                <div>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  className=" text-2xl "
+                  rel="noreferrer"
+                >
+                  {item.name}
+                </a>
+
+                <div className="flex gap-x-2">
                   {item.stack?.map((item) => {
                     if (item === "React") {
                       return (
@@ -97,6 +104,16 @@ export default function Home() {
                       return (
                         <Image
                           src="/css.png"
+                          height={35}
+                          width={35}
+                          alt="React"
+                        />
+                      );
+                    }
+                    if (item === "JS") {
+                      return (
+                        <Image
+                          src="/js.png"
                           height={35}
                           width={35}
                           alt="React"
