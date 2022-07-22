@@ -3,37 +3,38 @@
         {
             "id": 1,
             "name": "IsOpenAt",
-            "image": "/isopenat.png",
             "url": "isopenat.com",
+   
             "description": "¿Quieres saber si tus negocios favoritos están abiertos? En IsOpenAt, podrás saber la información de tus negocios favoritos, así como de promociones, y reseñas de parte de otras personas. También podrás hacer reseñas por tu mismo, y aportar para poder tener la información más reciente del negocio que más te gusta."
         },
         {
             "id": 2,
             "name": "Advice App",
-            "image": "/advice-app.png",
             "url": "https://betoml5.github.io/advice-app/",
+   
             "description": "Una simple App que da consejos"
         },
         {
             "id": 3,
             "name": "Huddle Home Page",
-            "image": "/huddle.png",
             "url": "https://betoml5.github.io/Huddle-landing-page-with-alternating-feature-blocks/",
-            "description": ""
+   
+            "description": "Home page de una marca"
         },
         {
             "id": 4,
             "name": "Loop Studios",
-            "image": "/loop-studios.png",
             "url": "https://loop-studios-fpfeogrmo-betoml5.vercel.app/",
-            "description": ""
+   
+            "description": "Landing page de un estudio"
         },
         {
             "id": 5,
-            "name": "IsOpenAt",
-            "image": "/room.png",
+            "name": "Room Home Page",
             "url": "https://betoml5.github.io/Room-homepage/",
-            "description": ""
+            "description": "Home page de una marca de muebles",
+   
+            "stack": ["React", "MongoDB", "Express", "NodeJS"]
         }
     ]
 }
