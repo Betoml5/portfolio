@@ -4,10 +4,10 @@ import { projects } from "../projects.json";
 
 export default function Home() {
   return (
-    <main>
-      <section className=" mx-auto max-w-5xl h-screen">
+    <main className="">
+      <section className=" mx-auto max-w-5xl">
         <section className="text-white p-4 mt-14 md:mt-0 ">
-          <h2 className="text-3xl font-semibold">
+          <h2 className="text-3xl font-semibold mt-8">
             Beto Martinez, Frontend Developer
           </h2>
         </section>
@@ -36,7 +36,6 @@ export default function Home() {
                 >
                   {item.name}
                 </a>
-
                 <div className="flex gap-x-2">
                   {item.stack?.map((item) => {
                     if (item === "React") {
