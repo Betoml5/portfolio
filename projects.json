@@ -28,7 +28,7 @@
             "name": "Loop Studios",
             "url": "https://loop-studios-fpfeogrmo-betoml5.vercel.app/",
             "description": "Landing page de un estudio",
-            "stack": ["React"]
+            "stack": ["React", "HTML", "CSS"]
    
         },
         {
@@ -45,12 +45,12 @@
             "name": "Shortly URL",
             "url": "https://betoml5.github.io/shortly-landing/",
             "description": "Web app para acortar URLs",
-            "stack": ["HTML", "CSS", "JS"]
+            "stack": ["HTML", "CSS", "JS"]  
    
         },
         {
             "id": 7,
-            "name": "Buuk - App Movil - React Native",
+            "name": "Buuk - React Native",
             "url": "https://github.com/Betoml5/buuk-frontend",
             "description": "Aplicacion movil para tracking de libros",
             "stack": ["React", "MongoDB", "Express", "NodeJS"]

@@ -1,8 +1,19 @@
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { Context } from "../context/Context";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+
+  const { lang, setLang } = useContext(Context);
+
+  const handleClick = () => {
+    if (lang === "es") {
+      setLang("en");
+    } else {
+      setLang("es");
+    }
+  };
 
   return (
     <header className="relative bg-primary p-4">
@@ -21,14 +32,38 @@ const Header = () => {
         </div>
 
         <div className="hidden text-white md:flex">
-          <a href="#projects" className="mr-2">
-            Proyectos
-          </a>
-          <a href="#about">Sobre mi</a>
+          <div>
+            <a href="#projects" className="mr-2">
+              Proyectos
+            </a>
+            <a href="#about" className="mr-4">
+              Sobre mi
+            </a>
+          </div>
+          {lang === "en" ? (
+            <Image
+              src="/mexicoflag.png"
+              width={35}
+              height={15}
+              alt="english"
+              onClick={handleClick}
+            />
+          ) : (
+            <Image
+              src="/usaflag.png"
+              width={35}
+              height={15}
+              alt="english"
+              onClick={handleClick}
+            />
+          )}
         </div>
 
-        <div className="text-white md:hidden">
-          <div onClick={() => setOpen(!open)} className="md:hidden">
+        <div className=" text-white md:hidden">
+          <div
+            onClick={() => setOpen(!open)}
+            className="cursor-pointer md:hidden "
+          >
             <Image
               src="/hamburger.png"
               width={25}
@@ -37,16 +72,37 @@ const Header = () => {
             />
           </div>
           <div
-            className={`absolute left-0  bg-primary p-4 w-full border-t border-secondary transition-all duration-300 ease-linear md:flex md:fixed ${
+            className={`flex items-center justify-between absolute left-0  bg-primary p-4 w-full border-t border-secondary transition-all duration-300 ease-linear md:flex md:fixed ${
               open
                 ? "-bottom-14 opacity-100"
                 : "bottom-[420px] md:opacity-100 opacity-0 "
             }`}
           >
-            <a href="#projects" className="mr-2">
-              Proyectos
-            </a>
-            <a href="#about">Sobre mi</a>
+            <div>
+              <a href="#projects" className="mr-2">
+                Proyectos
+              </a>
+              <a href="#about" className="mr-2">
+                Sobre mi
+              </a>
+            </div>
+            {lang === "en" ? (
+              <Image
+                src="/mexicoflag.png"
+                width={25}
+                height={15}
+                alt="english"
+                onClick={handleClick}
+              />
+            ) : (
+              <Image
+                src="/usaflag.png"
+                width={25}
+                height={15}
+                alt="english"
+                onClick={handleClick}
+              />
+            )}
           </div>
         </div>
       </div>

@@ -1,13 +1,18 @@
 import Image from "next/image";
+import { useContext } from "react";
+import { Context } from "../context/Context";
 import { projects } from "../projects.json";
-// import reactIcon from "/react.png";
 
 export default function Home() {
+  const { lang, setLang } = useContext(Context);
+
+  console.log(lang);
+
   return (
-    <main className="">
+    <main className="   ">
       <section className=" mx-auto max-w-5xl">
         <section className="text-white p-4 mt-14 md:mt-0 ">
-          <h2 className="text-3xl font-semibold mt-8">
+          <h2 className="text-3xl font-semibold mt-8 ">
             Beto Martinez, Frontend Developer
           </h2>
         </section>
@@ -16,8 +21,9 @@ export default function Home() {
           <h2 className="text-2xl mb-2">Acerca de mi</h2>
           <p className="tracking-widest">
             Hola, soy Beto Martinez, Frontend developer. Tengo 20 años y vivo en
-            México. Actualmente estoy cursando la carrera de Ingerieria en
-            Sistemas Computaciones en el TECNM Campus Region carbonifera.
+            México. Actualmente estoy cursando el 5to semestre de la carrera de
+            Ingenieria en Sistemas Computaciones en el TECNM Campus Región
+            carbonifera.
           </p>
         </section>
         <section className="p-4" id="projects">
