@@ -27,9 +27,9 @@ export default function Home() {
           ) : (
             <p className="tracking-widest">
               Hi,{" I'm "}Beto Martinez, Frontend developer. I am 20 years old
-              and live in Mexico. I am currently studying the 5th semester of
-              the Computer Systems Engineering career at the TECNM Campus Region
-              carbonifera.
+              and currently living at Mexico. I am currently studying the 5th
+              semester of the Computer Systems Engineering career at the TECNM
+              Campus Region carbonifera.
             </p>
           )}
         </section>
