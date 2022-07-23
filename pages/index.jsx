@@ -6,8 +6,6 @@ import { projects } from "../projects.json";
 export default function Home() {
   const { lang, setLang } = useContext(Context);
 
-  console.log(lang);
-
   return (
     <main className="   ">
       <section className=" mx-auto max-w-5xl">
@@ -19,15 +17,28 @@ export default function Home() {
 
         <section className="text-white p-4 " id="about">
           <h2 className="text-2xl mb-2">Acerca de mi</h2>
-          <p className="tracking-widest">
-            Hola, soy Beto Martinez, Frontend developer. Tengo 20 años y vivo en
-            México. Actualmente estoy cursando el 5to semestre de la carrera de
-            Ingenieria en Sistemas Computaciones en el TECNM Campus Región
-            carbonifera.
-          </p>
+          {lang === "es" ? (
+            <p className="tracking-widest">
+              Hola, soy Beto Martinez, Frontend developer. Tengo 20 años y vivo
+              en México. Actualmente estoy cursando el 5to semestre de la
+              carrera de Ingenieria en Sistemas Computaciones en el TECNM Campus
+              Región carbonifera.
+            </p>
+          ) : (
+            <p className="tracking-widest">
+              Hi,{" I'm "}Beto Martinez, Frontend developer. I am 20 years old
+              and live in Mexico. I am currently studying the 5th semester of
+              the Computer Systems Engineering career at the TECNM Campus Region
+              carbonifera.
+            </p>
+          )}
         </section>
         <section className="p-4" id="projects">
-          <h2 className="text-2xl text-white ">Proyectos</h2>
+          {lang === "es" ? (
+            <h2 className="text-2xl text-white ">Proyectos</h2>
+          ) : (
+            <h2 className="text-2xl text-white ">Projects</h2>
+          )}
           <div className="grid grid-cols-1 gap-4 mt-6 md:grid-cols-2 grid-flow-row-dense">
             {projects.map((item) => (
               <div

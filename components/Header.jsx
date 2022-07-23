@@ -33,12 +33,25 @@ const Header = () => {
 
         <div className="hidden text-white md:flex">
           <div>
-            <a href="#projects" className="mr-2">
-              Proyectos
-            </a>
-            <a href="#about" className="mr-4">
-              Sobre mi
-            </a>
+            {lang === "es" ? (
+              <>
+                <a href="#projects" className="mr-2">
+                  Proyectos
+                </a>
+                <a href="#about" className="mr-4">
+                  Sobre mi
+                </a>
+              </>
+            ) : (
+              <>
+                <a href="#projects" className="mr-2">
+                  Projects
+                </a>
+                <a href="#about" className="mr-4">
+                  About me
+                </a>
+              </>
+            )}
           </div>
           {lang === "en" ? (
             <Image
@@ -78,14 +91,25 @@ const Header = () => {
                 : "bottom-[420px] md:opacity-100 opacity-0 "
             }`}
           >
-            <div>
-              <a href="#projects" className="mr-2">
-                Proyectos
-              </a>
-              <a href="#about" className="mr-2">
-                Sobre mi
-              </a>
-            </div>
+            {lang === "es" ? (
+              <div>
+                <a href="#projects" className="mr-2">
+                  Proyectos
+                </a>
+                <a href="#about" className="mr-2">
+                  Sobre mi
+                </a>
+              </div>
+            ) : (
+              <div>
+                <a href="#projects" className="mr-2">
+                  Projects
+                </a>
+                <a href="#about" className="mr-2">
+                  About me
+                </a>
+              </div>
+            )}
             {lang === "en" ? (
               <Image
                 src="/mexicoflag.png"
