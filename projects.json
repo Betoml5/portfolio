@@ -74,7 +74,7 @@
         },
         {
             "id": 10,
-            "name": "Dashboard Social",
+            "name": "Social Dashboard",
             "url": "https://betoml5.github.io/Social-media-dashboard-with-theme-switcher/",
             "description": "Dashboard de redes sociales",
             "stack": ["HTML", "CSS", "JS"]
