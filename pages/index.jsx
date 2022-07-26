@@ -143,7 +143,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-        <section className="flex p-4">
+        <section className="flex justify-center gap-x-2 p-4">
           <Link
             href="https://github.com/Betoml5"
             className="cursor-pointer "
@@ -154,11 +154,11 @@ export default function Home() {
               width={35}
               height={35}
               alt="GithubIcon"
-              className="cursor-pointer"
+              className="cursor-pointer "
             />
           </Link>
           <Link
-            href="https://github.com/Betoml5"
+            href="https://twitter.com/betoml2"
             className="cursor-pointer"
             target="_blank"
           >
