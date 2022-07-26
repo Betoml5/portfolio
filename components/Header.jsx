@@ -60,6 +60,7 @@ const Header = () => {
               height={15}
               alt="english"
               onClick={handleClick}
+              className="cursor-pointer"
             />
           ) : (
             <Image
@@ -68,6 +69,7 @@ const Header = () => {
               height={15}
               alt="english"
               onClick={handleClick}
+              className="cursor-pointer"
             />
           )}
         </div>
@@ -117,6 +119,7 @@ const Header = () => {
                 height={15}
                 alt="english"
                 onClick={handleClick}
+                className="cursor-pointer"
               />
             ) : (
               <Image
@@ -125,6 +128,7 @@ const Header = () => {
                 height={15}
                 alt="english"
                 onClick={handleClick}
+                className="cursor-pointer"
               />
             )}
           </div>

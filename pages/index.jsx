@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useContext } from "react";
 import { Context } from "../context/Context";
 import { projects } from "../projects.json";
@@ -141,6 +142,34 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+        <section className="flex p-4">
+          <Link
+            href="https://github.com/Betoml5"
+            className="cursor-pointer "
+            target="_blank"
+          >
+            <Image
+              src="/github.png"
+              width={35}
+              height={35}
+              alt="GithubIcon"
+              className="cursor-pointer"
+            />
+          </Link>
+          <Link
+            href="https://github.com/Betoml5"
+            className="cursor-pointer"
+            target="_blank"
+          >
+            <Image
+              src="/twitter.png"
+              width={35}
+              height={35}
+              alt="TwitterIcon"
+              className="cursor-pointer "
+            />
+          </Link>
         </section>
       </section>
     </main>
