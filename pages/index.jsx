@@ -32,7 +32,7 @@ export default function Home() {
               carrera de Ingenieria en Sistemas Computaciones en el TECNM Campus
               Región carbonifera. Con lo que trabajo actualmente es con HTML,
               CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express y
-              TailwindCSS
+              TailwindCSS.
             </p>
           ) : (
             <p className="tracking-widest">
@@ -41,7 +41,7 @@ export default function Home() {
               semester of the Computer Systems Engineering career at the TECNM
               Campus Region carbonifera. {" I'm "} now working with HTML, CSS,
               JavaScript, React, NextJS, NodeJS, Mongoose, Express and
-              TailwindCSS
+              TailwindCSS.
             </p>
           )}
         </section>
@@ -155,11 +155,10 @@ export default function Home() {
           </div>
         </section>
         <section className="flex justify-center gap-x-2 p-4">
-          <Link
+          <a
             href="https://github.com/Betoml5"
             className="cursor-pointer "
             target="_blank"
-            passHref
             rel="noreferrer"
           >
             <Image
@@ -169,12 +168,11 @@ export default function Home() {
               alt="GithubIcon"
               className="cursor-pointer "
             />
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://twitter.com/betoml2"
             className="cursor-pointer"
             target="_blank"
-            passHref
             rel="noreferrer"
           >
             <Image
@@ -184,7 +182,7 @@ export default function Home() {
               alt="TwitterIcon"
               className="cursor-pointer "
             />
-          </Link>
+          </a>
         </section>
       </section>
     </main>
