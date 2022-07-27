@@ -60,7 +60,7 @@ const Header = () => {
               height={15}
               alt="english"
               onClick={handleClick}
-              className="cursor-pointer"
+              className="cursor-pointer rounded-full"
             />
           ) : (
             <Image
@@ -69,7 +69,7 @@ const Header = () => {
               height={15}
               alt="english"
               onClick={handleClick}
-              className="cursor-pointer"
+              className="cursor-pointer rounded-full"
             />
           )}
         </div>
@@ -119,7 +119,7 @@ const Header = () => {
                 height={15}
                 alt="english"
                 onClick={handleClick}
-                className="cursor-pointer"
+                className="cursor-pointer rounded-full"
               />
             ) : (
               <Image
@@ -128,7 +128,7 @@ const Header = () => {
                 height={15}
                 alt="english"
                 onClick={handleClick}
-                className="cursor-pointer"
+                className="cursor-pointer rounded-full"
               />
             )}
           </div>

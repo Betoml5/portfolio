@@ -148,6 +148,7 @@ export default function Home() {
             href="https://github.com/Betoml5"
             className="cursor-pointer "
             target="_blank"
+            passHref
           >
             <Image
               src="/github.png"
@@ -161,6 +162,7 @@ export default function Home() {
             href="https://twitter.com/betoml2"
             className="cursor-pointer"
             target="_blank"
+            passHref
           >
             <Image
               src="/twitter.png"
