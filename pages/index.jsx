@@ -30,14 +30,18 @@ export default function Home() {
               Hola, soy Beto Martinez, Frontend developer. Tengo 20 años y vivo
               en México. Actualmente estoy cursando el 5to semestre de la
               carrera de Ingenieria en Sistemas Computaciones en el TECNM Campus
-              Región carbonifera.
+              Región carbonifera. Con lo que trabajo actualmente es con HTML,
+              CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express y
+              TailwindCSS
             </p>
           ) : (
             <p className="tracking-widest">
               Hi,{" I'm "}Beto Martinez, Frontend developer. I am 20 years old
               and currently living at Mexico. I am currently studying the 5th
               semester of the Computer Systems Engineering career at the TECNM
-              Campus Region carbonifera.
+              Campus Region carbonifera. {" I'm "} now working with HTML, CSS,
+              JavaScript, React, NextJS, NodeJS, Mongoose, Express and
+              TailwindCSS
             </p>
           )}
         </section>
