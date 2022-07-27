@@ -1,14 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+
+import Head from "next/head";
 import { useContext } from "react";
 import { Context } from "../context/Context";
 import { projects } from "../projects.json";
 
 export default function Home() {
-  const { lang, setLang } = useContext(Context);
+  const { lang } = useContext(Context);
 
   return (
-    <main className="   ">
+    <main>
+      <Head>
+        <title>Betoml5 - Portfolio</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/me.ico" />
+      </Head>
       <section className=" mx-auto max-w-5xl">
         <section className="text-white p-4 mt-14 md:mt-0 ">
           <h2 className="text-3xl font-semibold mt-8 ">
@@ -149,6 +156,7 @@ export default function Home() {
             className="cursor-pointer "
             target="_blank"
             passHref
+            rel="noreferrer"
           >
             <Image
               src="/github.png"
@@ -163,6 +171,7 @@ export default function Home() {
             className="cursor-pointer"
             target="_blank"
             passHref
+            rel="noreferrer"
           >
             <Image
               src="/twitter.png"

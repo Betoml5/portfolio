@@ -58,7 +58,7 @@
         },
         {
             "id": 8,
-            "name": "Espacios Seguros",
+            "name": "Espacios Rosita",
             "url": "http://espacios-rosita.vercel.app/",
             "description": "Web app para reportar acosos",
             "stack": ["React","Tailwind", "NodeJS", "Express", "MongoDB"]
