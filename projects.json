@@ -1,85 +1,89 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "IsOpenAt",
-            "url": "https://isopenat.com",
-            "description": "¿Quieres saber si tus negocios favoritos están abiertos? En IsOpenAt, podrás saber la información de tus negocios favoritos, así como de promociones, y reseñas de parte de otras personas. También podrás hacer reseñas por tu mismo, y aportar para poder tener la información más reciente del negocio que más te gusta.",
-            "stack": ["React", "Tailwind", "NodeJS", "Express", "MongoDB"]
-        },
-        {
-            "id": 2,
-            "name": "Advice App",
-            "url": "https://betoml5.github.io/advice-app/",
-            "description": "Una simple App que da consejos",
-            "stack": ["HTML", "CSS", "JS"]
-   
-        },
-        {
-            "id": 3,
-            "name": "Huddle Home Page",
-            "url": "https://betoml5.github.io/Huddle-landing-page-with-alternating-feature-blocks/",
-            "description": "Home page de una marca",
-            "stack": ["HTML", "CSS"]
-   
-        },
-        {
-            "id": 4,
-            "name": "Loop Studios",
-            "url": "https://loop-studios-fpfeogrmo-betoml5.vercel.app/",
-            "description": "Landing page de un estudio",
-            "stack": ["React", "HTML", "CSS"]
-   
-        },
-        {
-            "id": 5,
-            "name": "Room Home Page",
-            "url": "https://betoml5.github.io/Room-homepage/",
-            "description": "Home page de una marca de muebles",
-            "stack": ["HTML", "CSS", "JS"]
-   
-        },
+  "projects": [
+    {
+      "id": 1,
+      "name": "IsOpenAt",
+      "url": "https://is-open-at-frontend-mn6scz4ud-betoml5.vercel.app/",
+      "description": "¿Quieres saber si tus negocios favoritos están abiertos? En IsOpenAt, podrás saber la información de tus negocios favoritos, así como de promociones, y reseñas de parte de otras personas. También podrás hacer reseñas por tu mismo, y aportar para poder tener la información más reciente del negocio que más te gusta.",
+      "stack": ["React", "Tailwind", "Node", "Express", "MongoDB"]
+    },
+    {
+      "id": 2,
+      "name": "Advice App",
+      "url": "https://betoml5.github.io/advice-app/",
+      "description": "Una simple App que da consejos",
+      "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 3,
+      "name": "Huddle Home Page",
+      "url": "https://betoml5.github.io/Huddle-landing-page-with-alternating-feature-blocks/",
+      "description": "Home page de una marca",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "id": 4,
+      "name": "Loop Studios",
+      "url": "https://loop-studios-fpfeogrmo-betoml5.vercel.app/",
+      "description": "Landing page de un estudio",
+      "stack": ["React", "HTML", "CSS"]
+    },
+    {
+      "id": 5,
+      "name": "Room Home Page",
+      "url": "https://betoml5.github.io/Room-homepage/",
+      "description": "Home page de una marca de muebles",
+      "stack": ["HTML", "CSS", "JS"]
+    },
 
-        {
-            "id": 6,
-            "name": "Shortly URL",
-            "url": "https://betoml5.github.io/shortly-landing/",
-            "description": "Web app para acortar URLs",
-            "stack": ["HTML", "CSS", "JS"]  
-   
-        },
-        {
-            "id": 7,
-            "name": "Buuk - React Native",
-            "url": "https://github.com/Betoml5/buuk-frontend",
-            "description": "Aplicacion movil para tracking de libros",
-            "stack": ["React", "MongoDB", "Express", "NodeJS"]
-   
-        },
-        {
-            "id": 8,
-            "name": "Espacios Rosita",
-            "url": "http://espacios-rosita.vercel.app/",
-            "description": "Web app para reportar acosos",
-            "stack": ["React","Tailwind", "NodeJS", "Express", "MongoDB"]
-   
-        },
-        {
-            "id": 9,
-            "name": "Paises App",
-            "url": "http://countries-app-betoml5.vercel.app/",
-            "description": "Web app de paises",
-            "stack": ["React", "CSS"]
-   
-        },
-        {
-            "id": 10,
-            "name": "Social Dashboard",
-            "url": "https://betoml5.github.io/Social-media-dashboard-with-theme-switcher/",
-            "description": "Dashboard de redes sociales",
-            "stack": ["HTML", "CSS", "JS"]
-   
-        }
-        
-    ]
+    {
+      "id": 6,
+      "name": "Shortly URL",
+      "url": "https://betoml5.github.io/shortly-landing/",
+      "description": "Web app para acortar URLs",
+      "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 7,
+      "name": "Buuk - React Native",
+      "url": "https://github.com/Betoml5/buuk-frontend",
+      "description": "Aplicacion movil para tracking de libros",
+      "stack": ["React", "MongoDB", "Express", "Node"]
+    },
+    {
+      "id": 8,
+      "name": "Espacios Rosita",
+      "url": "http://espacios-rosita.vercel.app/",
+      "description": "Web app para reportar acosos",
+      "stack": ["React", "Tailwind", "Node", "Express", "MongoDB"]
+    },
+    {
+      "id": 9,
+      "name": "Paises App",
+      "url": "http://countries-app-betoml5.vercel.app/",
+      "description": "Web app de paises",
+      "stack": ["React", "CSS"]
+    },
+    {
+      "id": 10,
+      "name": "Social Dashboard",
+      "url": "https://betoml5.github.io/Social-media-dashboard-with-theme-switcher/",
+      "description": "Dashboard de redes sociales",
+      "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+      "id": 11,
+      "name": "MotivaTECNM",
+      "url": "https://motivatec-frontend.vercel.app/",
+      "description": "Plataforma para motivar a estudiantes universitarios",
+      "stack": ["React", "Tailwind", "Node", "Express", "Mysql", "Sequelize"]
+    },
+    {
+      "id": 12,
+      "name": "Intertec",
+      "url": "https://intertec.vercel.app/iniciar-sesion",
+      "description": "Plataforma para la universidad Intertec",
+      "stack": ["React", "Tailwind"]
+    }
+  ]
 }

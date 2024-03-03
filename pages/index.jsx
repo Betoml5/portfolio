@@ -12,35 +12,37 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>Betoml5 - Portfolio</title>
+        <title>Alberto Martinez - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/me.ico" />
       </Head>
       <section className=" mx-auto max-w-5xl">
         <section className="text-white p-4 mt-14 md:mt-0 ">
           <h2 className="text-3xl font-semibold mt-8 ">
-            Beto Martinez, Frontend Developer
+            Alberto Martinez, Frontend Developer
           </h2>
         </section>
 
         <section className="text-white p-4 " id="about">
-          <h2 className="text-2xl mb-2">Acerca de mi</h2>
+          <h2 className="text-2xl mb-2">
+            {lang === "es" ? "Sobre mi" : "About me"}
+          </h2>
           {lang === "es" ? (
             <p className="tracking-widest">
-              Hola, soy Beto Martinez, Frontend developer. Tengo 20 años y vivo
-              en México. Actualmente estoy cursando el 5to semestre de la
-              carrera de Ingenieria en Sistemas Computaciones en el TECNM Campus
-              Región carbonifera. Con lo que trabajo actualmente es con HTML,
+              Hola, soy Alberto Martinez, Frontend developer. Tengo 22 años y
+              vivo en México. Actualmente estoy cursando el 8vo semestre de la
+              carrera de Ingeniería en Sistemas Computaciones en el TECNM Campus
+              Región carbonífera. Con lo que trabajo actualmente es con HTML,
               CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express y
               TailwindCSS.
             </p>
           ) : (
             <p className="tracking-widest">
-              Hi,{" I'm "}Beto Martinez, Frontend developer. I am 20 years old
-              and currently living at Mexico. I am currently studying the 5th
-              semester of the Computer Systems Engineering career at the TECNM
-              Campus Region carbonifera. {" I'm "} now working with HTML, CSS,
-              JavaScript, React, NextJS, NodeJS, Mongoose, Express and
+              Hi,{" I'm "}Alberto Martinez, Frontend developer. I am 20 years
+              old and currently living at Mexico. I am currently studying the
+              5th semester of the Computer Systems Engineering career at the
+              TECNM Campus Region carbonifera. {" I'm "} now working with HTML,
+              CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express and
               TailwindCSS.
             </p>
           )}
@@ -67,121 +69,58 @@ export default function Home() {
                 </a>
                 <div className="flex gap-x-2">
                   {item.stack?.map((item) => {
-                    if (item === "React") {
-                      return (
-                        <Image
-                          src="/react.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "NodeJS") {
-                      return (
-                        <Image
-                          src="/node.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "Tailwind") {
-                      return (
-                        <Image
-                          src="/tailwind.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "MongoDB") {
-                      return (
-                        <Image
-                          src="/mongodb.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "Express") {
-                      return (
-                        <Image
-                          src="/express.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-
-                    if (item === "HTML") {
-                      return (
-                        <Image
-                          src="/html.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "CSS") {
-                      return (
-                        <Image
-                          src="/css.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
-                    if (item === "JS") {
-                      return (
-                        <Image
-                          src="/js.png"
-                          height={35}
-                          width={35}
-                          alt="React"
-                        />
-                      );
-                    }
+                    return (
+                      <Image
+                        key={item.length}
+                        src={`/${item.toLowerCase()}.png`}
+                        width={35}
+                        height={35}
+                        alt={item}
+                        title={item}
+                      />
+                    );
                   })}
                 </div>
               </div>
             ))}
           </div>
         </section>
-        <section className="flex justify-center gap-x-2 p-4">
-          <a
-            href="https://github.com/Betoml5"
-            className="cursor-pointer "
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/github.png"
-              width={35}
-              height={35}
-              alt="GithubIcon"
+        <section className="flex flex-col items-center justify-center  p-4">
+          <div className="flex gap-x-2">
+            <a
+              href="https://github.com/Betoml5"
               className="cursor-pointer "
-            />
-          </a>
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/github.png"
+                width={35}
+                height={35}
+                alt="GithubIcon"
+                className="cursor-pointer "
+              />
+            </a>
+            <a
+              href="https://twitter.com/betoml2"
+              className="cursor-pointer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/twitter.png"
+                width={35}
+                height={35}
+                alt="TwitterIcon"
+                className="cursor-pointer "
+              />
+            </a>
+          </div>
           <a
-            href="https://twitter.com/betoml2"
-            className="cursor-pointer"
-            target="_blank"
-            rel="noreferrer"
+            href="/assets/CV-ALBERTO-MTZ.pdf"
+            className="text-white underline my-4"
           >
-            <Image
-              src="/twitter.png"
-              width={35}
-              height={35}
-              alt="TwitterIcon"
-              className="cursor-pointer "
-            />
+            Descargar CV
           </a>
         </section>
       </section>
