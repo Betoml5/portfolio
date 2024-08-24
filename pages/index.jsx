@@ -113,7 +113,7 @@ export default function Home() {
             href="/assets/CV-ALBERTO-MARTINEZ-LUNA.pdf"
             className="text-white underline my-4"
           >
-            Descargar CV
+            {lang === "es" ? "Descargar CV" : "Download CV"}
           </a>
         </section>
       </section>
