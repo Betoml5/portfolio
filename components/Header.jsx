@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useContext, useState } from "react";
 import { Context } from "../context/Context";
+import Link from "next/link";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -28,7 +29,10 @@ const Header = () => {
               className="rounded-full"
             />
           </picture>
-          <p className="text-white ml-4">Beto Martinez</p>
+
+          <Link href="/" passHref>
+            <p className="text-white ml-4">Alberto Martinez</p>
+          </Link>
         </div>
 
         <div className="hidden text-white md:flex">

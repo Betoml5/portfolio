@@ -29,21 +29,29 @@ export default function Home() {
           </h2>
           {lang === "es" ? (
             <p className="tracking-widest">
-              Hola, soy Alberto Martinez, Frontend developer. Tengo 22 años y
-              vivo en México. Actualmente estoy cursando el 8vo semestre de la
+              Hola, soy Alberto Martínez, Frontend developer. Tengo 22 años y
+              vivo en México. Actualmente estoy cursando el 9no semestre de la
               carrera de Ingeniería en Sistemas Computaciones en el TECNM Campus
               Región carbonífera. Con lo que trabajo actualmente es con HTML,
               CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express y
-              TailwindCSS.
+              TailwindCSS para desarrollo móvil suelo utilizar React Native ya
+              que me permite optimizar mi tiempo de desarrollo y por la
+              versatilidad que te otorga. También he trabajado con proyectos en
+              .NET usando ASP.NET Web Api, como también ASP.NET MVC y para
+              desarrollo móvil .NET MAUI.
             </p>
           ) : (
             <p className="tracking-widest">
-              Hi,{" I'm "}Alberto Martinez, Frontend developer. I am 20 years
+              Hi,{" I'm "}Alberto Martínez, Frontend developer. I am 22 years
               old and currently living at Mexico. I am currently studying the
-              5th semester of the Computer Systems Engineering career at the
+              9th semester of the Computer Systems Engineering career at the
               TECNM Campus Region carbonifera. {" I'm "} now working with HTML,
               CSS, JavaScript, React, NextJS, NodeJS, Mongoose, Express and
-              TailwindCSS.
+              TailwindCSS for mobile development, I use React Native because it
+              gives me the flexibility to optimize my development time and the
+              versatility that gives me. . {"I've"} have also worked with
+              projects in .NET using ASP.NET Web Api, ASP.NET MVC and for mobile
+              development .NET MAUI.
             </p>
           )}
         </section>
@@ -59,19 +67,18 @@ export default function Home() {
                 className="flex justify-between items-center bg-primary text-white p-4 rounded-md cursor-pointer hover:opacity-90"
                 key={item.id}
               >
-                <a
-                  href={item.url}
-                  target="_blank"
-                  className=" text-2xl "
-                  rel="noreferrer"
+                <Link
+                  key={item}
+                  href={`/project/${item.name.replace(" ", "-")}`}
+                  passHref
                 >
                   {item.name}
-                </a>
+                </Link>
                 <div className="flex gap-x-2">
                   {item.stack?.map((item) => {
                     return (
                       <Image
-                        key={item.length}
+                        key={item}
                         src={`/${item.toLowerCase()}.png`}
                         width={35}
                         height={35}
@@ -101,23 +108,9 @@ export default function Home() {
                 className="cursor-pointer "
               />
             </a>
-            <a
-              href="https://twitter.com/betoml2"
-              className="cursor-pointer"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                src="/twitter.png"
-                width={35}
-                height={35}
-                alt="TwitterIcon"
-                className="cursor-pointer "
-              />
-            </a>
           </div>
           <a
-            href="/assets/CV-ALBERTO-MTZ.pdf"
+            href="/assets/CV-ALBERTO-MARTINEZ-LUNA.pdf"
             className="text-white underline my-4"
           >
             Descargar CV

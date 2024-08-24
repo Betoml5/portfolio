@@ -4,35 +4,50 @@
       "id": 1,
       "name": "IsOpenAt",
       "url": "https://is-open-at-frontend-mn6scz4ud-betoml5.vercel.app/",
-      "description": "¿Quieres saber si tus negocios favoritos están abiertos? En IsOpenAt, podrás saber la información de tus negocios favoritos, así como de promociones, y reseñas de parte de otras personas. También podrás hacer reseñas por tu mismo, y aportar para poder tener la información más reciente del negocio que más te gusta.",
+      "description": {
+        "en": "IsOpenAt is a web app designed to provide a simple and user-friendly experience for users who want to know if their favorite businesses are open in real-time. Additionally, it allows exploring the current offers and promotions of these businesses. The app is developed using React for a quick and interactive user interface, Tailwind CSS for a modern and responsive design, Node.js with Express in the backend for efficient data management, and MongoDB as the database, ensuring a scalable and flexible structure.",
+        "es": "IsOpenAt es una web app diseñada para ofrecer una experiencia sencilla y útil a los usuarios que desean saber si sus negocios favoritos están abiertos en tiempo real. Además, permite explorar las ofertas y promociones actuales de estos establecimientos. La aplicación está desarrollada utilizando React para una interfaz rápida e interactiva, Tailwind CSS para un diseño moderno y responsivo, Node.js con Express en el backend para la gestión eficiente de datos y MongoDB como base de datos, asegurando una estructura escalable y flexible."
+      },
       "stack": ["React", "Tailwind", "Node", "Express", "MongoDB"]
     },
     {
       "id": 2,
       "name": "Advice App",
       "url": "https://betoml5.github.io/advice-app/",
-      "description": "Una simple App que da consejos",
+      "description": {
+        "en": "A mockup of an interactive application designed to provide useful advice to users. Built with HTML, CSS, and JavaScript.",
+        "es": "Es una maquetación de una aplicación interactiva diseñada para brindar consejos útiles a los usuarios. Desarrollada con HTML, CSS y JavaScript, la app ofrece una interfaz simple y accesible, con un diseño responsivo y atractivo visualmente. Gracias a la combinación de estos lenguajes, se logra una experiencia de usuario fluida y dinámica, permitiendo la visualización de diferentes consejos al interactuar con la aplicación."
+      },
       "stack": ["HTML", "CSS", "JS"]
     },
     {
       "id": 3,
       "name": "Huddle Home Page",
       "url": "https://betoml5.github.io/Huddle-landing-page-with-alternating-feature-blocks/",
-      "description": "Home page de una marca",
+      "description": {
+        "en": "A mockup of a landing page for a marketing agency, built with HTML and CSS. Provides a clean and modern design to showcase the agency's services and attract potential clients.",
+        "es": "Huddle Home Page es una maqueta de una landing page minimalista creada con HTML y CSS, diseñada para captar la atención de los usuarios de forma inmediata. La página presenta un diseño limpio y moderno, utilizando CSS para estilizar los elementos de manera efectiva, con un enfoque en la presentación clara del contenido y la experiencia de usuario. Ideal para destacar la propuesta de valor de una empresa o servicio desde el primer vistazo."
+      },
       "stack": ["HTML", "CSS"]
     },
     {
       "id": 4,
       "name": "Loop Studios",
       "url": "https://loop-studios-fpfeogrmo-betoml5.vercel.app/",
-      "description": "Landing page de un estudio",
+      "description": {
+        "en": "A mockup of a landing page for a studio, built with React, HTML, and CSS. Provides an interactive and modern design to showcase studio services and projects.",
+        "es": "Es una maqueta diseñada para presentar de manera profesional los servicios de un estudio, construida con React, HTML y CSS. La página combina una estructura dinámica y eficiente con React, proporcionando una experiencia de usuario interactiva. HTML y CSS se utilizan para crear una interfaz visualmente atractiva, con un enfoque en la simplicidad, la responsividad, y el diseño elegante para destacar la oferta del estudio y sus proyectos recientes."
+      },
       "stack": ["React", "HTML", "CSS"]
     },
     {
       "id": 5,
       "name": "Room Home Page",
       "url": "https://betoml5.github.io/Room-homepage/",
-      "description": "Home page de una marca de muebles",
+      "description": {
+        "en": "A mockup of a landing page for a furniture brand, developed with HTML, CSS, and JavaScript. Features a modern design to highlight furniture collections and attract customers.",
+        "es": "Room Home Page es una maqueta de una landing page creada para una marca de muebles, desarrollada con HTML, CSS y JavaScript. La página destaca por su diseño moderno y minimalista, con un enfoque en la presentación visual de los productos. Utiliza HTML para la estructura, CSS para los estilos elegantes y responsivos, y JavaScript para añadir interactividad, como animaciones suaves y características dinámicas que mejoran la experiencia de navegación del usuario. Ideal para resaltar colecciones de muebles y captar el interés de los clientes."
+      },
       "stack": ["HTML", "CSS", "JS"]
     },
 
@@ -40,50 +55,80 @@
       "id": 6,
       "name": "Shortly URL",
       "url": "https://betoml5.github.io/shortly-landing/",
-      "description": "Web app para acortar URLs",
+      "description": {
+        "en": "A mockup of a landing page for a URL shortening service, built with HTML, CSS, and JavaScript. Provides a simple and user-friendly interface to shorten URLs quickly and easily.",
+        "es": "Shortly URL es una web app diseñada para acortar URLs de manera rápida y eficiente. Desarrollada con HTML, CSS y JavaScript, esta aplicación ofrece una interfaz simple y directa para que los usuarios puedan generar enlaces cortos que sean fáciles de compartir."
+      },
       "stack": ["HTML", "CSS", "JS"]
     },
     {
       "id": 7,
-      "name": "Buuk - React Native",
+      "name": "Buuk",
       "url": "https://github.com/Betoml5/buuk-frontend",
-      "description": "Aplicacion movil para tracking de libros",
+      "description": {
+        "en": "A mobile app for tracking books, developed with React Native, MongoDB, Express, and Node.js. Allows users to record their reading progress and discover new books.",
+        "es": "Buuk es una aplicación móvil diseñada para hacer un seguimiento de los libros que los usuarios leen. Desarrollada con React Native, MongoDB, Express y Node.js, Buuk permite a los usuarios registrar sus lecturas, llevar un control de su progreso y descubrir nuevas lecturas."
+      },
       "stack": ["React", "MongoDB", "Express", "Node"]
     },
     {
       "id": 8,
       "name": "Espacios Rosita",
       "url": "http://espacios-rosita.vercel.app/",
-      "description": "Web app para reportar acosos",
+      "description": {
+        "en": "A web app created to report incidents of harassment in public spaces. Developed with React, Tailwind, Node.js, Express and MongoDB, this application provides a user-friendly interface for reporting incidents quickly and anonymously.",
+        "es": "Espacios Rosita es una web app creada para reportar incidentes de acoso de manera segura y anónima. Desarrollada con React, Tailwind, Node.js, Express y MongoDB, esta aplicación ofrece una interfaz intuitiva para que los usuarios puedan registrar sus reportes de forma rápida y eficiente."
+      },
       "stack": ["React", "Tailwind", "Node", "Express", "MongoDB"]
     },
     {
       "id": 9,
       "name": "Paises App",
       "url": "http://countries-app-betoml5.vercel.app/",
-      "description": "Web app de paises",
+      "description": {
+        "en": " A web app that provides information about different countries. Developed with React and CSS, it features a clear and visually attractive interface.",
+        "es": "Paises App es una web app que permite a los usuarios explorar información sobre diferentes países. Desarrollada con React y CSS, la aplicación ofrece una interfaz clara y visualmente atractiva, proporcionando detalles esenciales sobre cada país. "
+      },
       "stack": ["React", "CSS"]
-    },
-    {
-      "id": 10,
-      "name": "Social Dashboard",
-      "url": "https://betoml5.github.io/Social-media-dashboard-with-theme-switcher/",
-      "description": "Dashboard de redes sociales",
-      "stack": ["HTML", "CSS", "JS"]
     },
     {
       "id": 11,
       "name": "MotivaTECNM",
       "url": "https://motivatec-frontend.vercel.app/",
-      "description": "Plataforma para motivar a estudiantes universitarios",
+      "description": {
+        "en": "MotivaTECNM is a platform designed to motivate students at the University of Carbon, promoting their academic success. Developed with React, Tailwind, Node.js, Express, MySQL, and Sequelize, the platform offers tools and resources to help students motivate and achieve their goals. ",
+        "es": "MotivaTECNM es una plataforma diseñada para motivar a los estudiantes universitarios, logrando un impacto considerable en el Tecnológico de la Región Carbonífera. Desarrollada con React, Tailwind, Node.js, Express, MySQL y Sequelize, la plataforma ofrece herramientas y recursos que han incrementado notablemente la motivación de los estudiantes, promoviendo su éxito académico y personal. "
+      },
       "stack": ["React", "Tailwind", "Node", "Express", "Mysql", "Sequelize"]
     },
     {
-      "id": 12,
-      "name": "Intertec",
-      "url": "https://intertec.vercel.app/iniciar-sesion",
-      "description": "Plataforma para la universidad Intertec",
+      "id": 13,
+      "name": "SCE",
+      "url": "",
+      "description": {
+        "en": "SCE is a web application developed for the calendarization of complementary exams at the TecNM Campus Región Carbonífera. Using React, .NET and CSS, the application facilitates the management and scheduling of complementary exams, improving the organization and efficiency of the academic process.",
+        "es": "SCE es una aplicación web desarrollada para la calendarización de exámenes complementarios en el TecNM Campus Región Carbonífera. Utilizando React, .NET y CSS, la aplicación facilita la gestión y programación de exámenes, mejorando la organización y la eficiencia en el proceso académico."
+      },
+      "stack": ["React", "NET", "CSS"]
+    },
+    {
+      "id": 14,
+      "name": "Tu Trono",
+      "url": "https://play.google.com/store/apps/details?id=com.betoml5.tutrono&hl=es_MX",
+      "description": {
+        "en": "Tu Trono is a mobile app developed with React Native, currently in a closed test phase in the Google Play Store. Styled with NativeWind, the app allows users to search for public bathrooms published by the community and rate them. Offers a intuitive and modern interface, promoting localization and evaluation of public bathrooms in different locations, and promoting collaboration and exchange of information between users.",
+        "es": "Tu Trono es una aplicación móvil desarrollada con React Native, actualmente en prueba cerrada en la Play Store. Estilizada con NativeWind, la app permite a los usuarios buscar baños públicos publicados por la comunidad y calificarlos. Ofrece una interfaz intuitiva y moderna, facilitando la localización y evaluación de instalaciones sanitarias en diferentes ubicaciones, y promoviendo la colaboración y el intercambio de información entre los usuarios."
+      },
       "stack": ["React", "Tailwind"]
+    },
+    {
+      "id": 15,
+      "name": "QBank",
+      "description": {
+        "es": "Una aplicación web desarrollada para gestionar eficientemente los turnos en un banco. Utiliza ASP.NET MVC para el frontend y SignalR para actualizaciones en tiempo real en el backend. La app permite un seguimiento y gestión efectivos de la atención al cliente, mejorando la experiencia general en el banco.",
+        "en": "A web application developed to manage bank queues efficiently. Built with ASP.NET MVC for the front end and SignalR for real-time updates on the backend. The app allows for effective tracking and management of customer service turn-taking, enhancing the overall customer experience at the bank."
+      },
+      "stack": ["JS", "CSS", "NET"]
     }
   ]
 }
