@@ -12,7 +12,9 @@ const ProjectDetails = () => {
     (p) => p.name === query?.name?.replace("-", " ")
   );
 
-  console.log(query);
+  if (!project) {
+    return <p>Project not found</p>;
+  }
 
   return (
     <div className="max-w-3xl mx-auto  m-4">
