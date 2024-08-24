@@ -1,13 +1,18 @@
-import { useRouter } from "next/router";
 import React, { useContext } from "react";
 import { projects } from "../../projects.json";
 import Image from "next/image";
 import { Context } from "../../context/Context";
+import { useRouter } from "next/router";
 
 const ProjectDetails = () => {
   const { query } = useRouter();
-  const project = projects.find((p) => p.name === query.name.replace("-", " "));
   const { lang } = useContext(Context);
+
+  const project = projects.find(
+    (p) => p.name === query?.name?.replace("-", " ")
+  );
+
+  console.log(query);
 
   return (
     <div className="max-w-3xl mx-auto  m-4">
